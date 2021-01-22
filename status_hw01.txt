@@ -10,6 +10,7 @@ My name is Rayyan Abdi.
 
 My VPS provider is Linode and my Domain provider is Dynadot.
 
+
 3. What domain name did you register?
 
 I have registered measuringworm.com as my domain.
@@ -17,10 +18,16 @@ I have registered measuringworm.com as my domain.
 
 4. What's the URL of your Github repository for this assignment?
 
+https://github.com/boqolo/cs4550hw01
 
 
 5. Which parts of this assignment did you have trouble with, if any?
 
+Figuring out how to configure record names with my provider gave me
+the most trouble especially while waiting for the TTL. And also 
+my registrar's site went on and off for maintenance some days.
+Setting up VirtualBox on my machine also had a minor hiccup but 
+overall no major troubles.
 
 
 And here's a list of tasks for grading comments. Just leave this here:

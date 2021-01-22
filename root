@@ -1,0 +1,20 @@
+# Default server configuration
+#
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /home/ray/www/root/;
+
+	# Declare index files
+	index index.html index.htm index.nginx-debian.html;
+
+	# Domain to process requests from
+	server_name measuringworm.com www.measuringworm.com;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+}
